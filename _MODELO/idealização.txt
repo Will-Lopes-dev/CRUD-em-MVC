@@ -1,0 +1,95 @@
+Planejamento do Banco de dados
+*******************************
+
+- Users (usuários)
+	-- ID
+	-- Email
+	-- Password
+	-- Name
+	-- Birthdate
+	-- City
+	-- Work
+	-- Avatar
+	-- Cover (capa)
+	-- Token (ident. Para manter logado)
+
+- UserRelations (relação que eles terão)
+	-- ID
+	-- User_from (de)
+	-- User_to (para)
+
+
+- Posts
+	-- ID
+	-- Type (text, photo)
+	-- Create_at (criado em) (data)
+	-- Body (corpo do post, inde. do conteúdo)
+
+- PostComents
+	-- ID
+	-- ID_post
+	-- ID_user
+	-- Created_ at (criado em) (data)
+	-- Body (corpo do comentário)
+
+- PostLikes
+	-- ID
+	-- ID_post
+	-- ID_user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
